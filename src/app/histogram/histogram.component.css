@@ -1,0 +1,35 @@
+.histogram {
+  position: relative;
+}
+
+.histogram {
+  width: 256px;
+  height: 101px;
+  display: block;
+  cursor: pointer;
+}
+
+.histogram__value-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 10px;
+}
+
+.histogram__svg {
+  transform: rotate(180deg);
+}
+
+.histogram__meter,
+.histogram__value {
+  fill: none;
+}
+
+.histogram__meter {
+  stroke: #ccc;
+}
+
+.histogram__value {
+  stroke: #4CAF50;
+  transition: all 100ms;
+}

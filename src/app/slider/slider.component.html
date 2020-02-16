@@ -1,0 +1,9 @@
+<div class="slider">
+
+  <svg class="slider__svg" viewBox="0 0 32 128" #slider>
+    <path d="M 16 0 v 128" fill="none" stroke="grey"></path>
+    <circle r="4" cx="16" [attr.cy]="cursorPt.y" fill="currentColor"></circle>
+</svg>
+
+  <div class="slider__value-text">{{value}}%</div>
+</div>

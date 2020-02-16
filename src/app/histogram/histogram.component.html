@@ -1,0 +1,14 @@
+<div class="histogram">
+
+  <svg class="histogram__svg" viewBox="0 0 256 100" #slider>
+    <path [attr.d]="path" fill="none" stroke="green"></path>
+    <g>
+      <path d="M -1,0 L 256,0" fill="none" stroke="black"></path>
+    </g>
+    <g>
+      <path d="M 256,0 L 256,100" fill="none" stroke="black"></path>
+    </g>
+</svg>
+
+  <div class="histogram__value-text">{{value}}%</div>
+</div>

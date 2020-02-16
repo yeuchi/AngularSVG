@@ -1,0 +1,35 @@
+.slider {
+  position: relative;
+}
+
+.slider {
+  width: 32px;
+  height: 128px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider__value-text {
+  position: absolute;
+  top: 48px;
+  left: 45px;
+  font-size: 20px;
+}
+
+.slider__svg {
+  transform: rotate(-90deg);
+}
+
+.slider__meter,
+.slider__value {
+  fill: none;
+}
+
+.slider__meter {
+  stroke: #ccc;
+}
+
+.slider__value {
+  stroke: #4CAF50;
+  transition: all 100ms;
+}
