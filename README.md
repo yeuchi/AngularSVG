@@ -1,4 +1,4 @@
-#AngularSVG
+# AngularSVG
 
 Learn and practice angular svg for rendering chart, graphs, and other fun stuff.
 Original starter components are from Daz (slider) and Cory (progress bar) as referenced below.
