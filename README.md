@@ -42,3 +42,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
    
 2. "Angular Progress bar" by Cory Rylan, Dec 23, 2017\
    https://coryrylan.com/blog/angular-progress-component-with-svg
+   
+3. "Tone Reproduction", by C.T. Yeung, Jul 27, 2012\
+   http://www.ctyeung.com/JQuery/ToneReproduction/web/index.html
