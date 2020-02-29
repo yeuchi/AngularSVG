@@ -1,27 +1,20 @@
-# AngularIntro
+# AngularSVG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+Thanks to Mike Ryan (Software Architect, Synapse) for an awesome SVG presentation at Angular Colorado. 
+This is a playground of SVG angular components.
+I have 2 examples: Slider from Daz and Progress bar from Cory.
+My first implementation is a histogram and cumulative-histogram (curve)
 
-## Development server
+<img width="414" alt="Screen Shot 2020-02-29 at 3 06 38 PM" src="https://user-images.githubusercontent.com/1282659/75615861-9e2e7e80-5b06-11ea-8cc4-c7ad14e474c6.png">
+<img width="411" alt="Screen Shot 2020-02-29 at 3 05 14 PM" src="https://user-images.githubusercontent.com/1282659/75615864-9ff84200-5b06-11ea-9885-aba394535104.png">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# References
 
-## Code scaffolding
+1. "Angular Progress bar" by Cory Rylan, Dec 23, 2017\
+   https://coryrylan.com/blog/angular-progress-component-with-svg
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. "Custom SVG control" by Daz, Nov 17, 2017\
+   https://medium.com/@dazcyril/custom-angular-controls-with-svg-efeeb75922b
+   
+3. "Getting Visual with Reactive Charts in Angular" by Mike Ryan, Jan 30, 2020
+   Conference presentation at Angular Colorado 2020
