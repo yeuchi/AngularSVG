@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProgressComponent } from './progress/progress.component';
 import { SliderComponent } from './slider/slider.component';
 import { HistogramComponent } from './histogram/histogram.component';
+import { ImagecanvasComponent } from './imagecanvas/imagecanvas.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HistogramComponent } from './histogram/histogram.component';
     ProgressComponent,
     SliderComponent,
     HistogramComponent,
+    ImagecanvasComponent
   ],
   imports: [
     BrowserModule,
